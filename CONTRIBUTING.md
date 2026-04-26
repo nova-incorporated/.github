@@ -7,7 +7,7 @@ We highly value all contributions made towards our project. This document was cr
 We currently accept the following contributions:
 
 - Bug reports
-- Documentation improvements
+- Documentation issue reports
 - Feature requests
 - Performance improvements
 - Code refactors
@@ -26,7 +26,7 @@ The aim of discussions is to provide an area where casual talk about subjects ca
 
 ## Issues
 
-You can create [GitHub Issues](https://docs.github.com/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) to suggest _what_ enhancements need to be made to the project and _why_, including contextual references within. They should present ideas and information that have been thought out **before** having being opened. All the types of issues you can currently open—including [bug reports](#bug-reports) and [feature requests](#feature-requests)—are documented below.
+You can use [GitHub Issues](https://docs.github.com/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) to suggest _what_ enhancements need to be made to the project and _why_, including contextual references within. They should present ideas and information that have been thought out **before** having being opened. All the types of issues you can currently open—including [bug reports](#bug-reports) and [feature requests](#feature-requests)—are documented below.
 
 > [!TIP]
 > It is advised that you create or contribute to discussions before opening issues, to gather insight on where the rest of the community wants to take the project—considering and tailoring contributions to fit the needs of others generally increases the chance those contributions will meet approval.
@@ -50,7 +50,7 @@ You can report problems with code functionality.
 
 Feature requests can be created to suggest enhancements to functionality and usability.
 
-### Documentation Improvements
+### Documentation Issue Reports
 
 You can report typos, missing information, or other deprived areas of documentation.
 
