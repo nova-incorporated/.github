@@ -6,9 +6,11 @@ We highly value all contributions made towards our project. This document was cr
 
 We currently accept the following contributions:
 
-- Bug reports
-- Documentation issue reports
-- Feature requests
+- Security vulnerability reports & fixes
+- Creating and conversing in discussions
+- Bug reports & fixes
+- Documentation issue reports & improvements
+- Feature requests & implementation
 - Performance improvements
 - Code refactors
 - Code reviews
