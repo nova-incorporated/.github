@@ -48,13 +48,13 @@ You can report problems with code functionality.
 > [!CAUTION]
 > Do not report security vulnerabilities through here; see [SECURITY.md](SECURITY.md) for where to go instead.
 
-### Feature Requests
-
-Feature requests can be created to suggest enhancements to functionality and usability.
-
 ### Documentation Issue Reports
 
 You can report typos, missing information, or other deprived areas of documentation.
+
+### Feature Requests
+
+Feature requests can be created to suggest enhancements to functionality and usability.
 
 ## Pull Requests
 
