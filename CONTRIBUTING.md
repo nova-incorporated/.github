@@ -31,7 +31,7 @@ The aim of discussions is to provide an area where casual talk about subjects ca
 You can use [GitHub Issues](https://docs.github.com/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) to suggest _what_ enhancements need to be made to the project and _why_, including contextual references within. They should present ideas and information that have been thought out **before** having being opened. All the types of issues you can currently open—including [bug reports](#bug-reports) and [feature requests](#feature-requests)—are documented below.
 
 > [!TIP]
-> It is advised that you create or contribute to discussions before opening issues, to gather insight on where the rest of the community wants to take the project—considering and tailoring contributions to fit the needs of others generally increases the chance those contributions will meet approval.
+> It is advised that you create or contribute to [discussions](#discussions) before opening issues, to gather insight on where the rest of the community wants to take the project—considering and tailoring contributions to fit the needs of others generally increases the chance those contributions will meet approval.
 
 Issues should individually focus on something **specific** that needs doing; they should not contain unrelated information. When external topics need to be brought up, you can link to other previously-created issues, discussions, or other contextual references briefly, without impeding the main flow of conversation.
 
