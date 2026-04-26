@@ -17,7 +17,7 @@ We currently accept the following contributions:
 
 ## Feature Usage Overview
 
-We aim to use many of the features GitHub provides to ensure the expandability of the project in the long-term. To keep things organized, we outline below what each feature should be used for.
+We aim to use many of the features GitHub provides to empower expandability of the project in the long-term. To keep things organized, we outline below what each feature should be used for.
 
 ### Discussions
 
@@ -30,30 +30,30 @@ The aim of discussions is to provide an area where casual talk about subjects ca
 You can create [GitHub Issues](https://docs.github.com/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) to suggest _what_ enhancements need to be made to the project and _why_, including contextual references within. They should present ideas and information that have been thought out **before** having being opened. It is advised to create or contribute to [discussions](#discussions) before opening issues, to gather ideas on where the community wants to take the project—considering the needs of other consumers generally increases the likelihood of contributions being approved.
 
 > [!TIP]
-> It is advised that you create or contribute to discussions before opening issues, to gather ideas on where the community wants to take the project—considering the needs of other consumers generally increases the likelihood of successful contributions.
+> It is advised that you create or contribute to discussions before opening issues, to gather insight on where the rest of the community wants to take the project—considering and tailoring contributions to fit the needs of others generally increases the chance those contributions will meet approval.
 
-Issues must individually be focussed on something specific and task-related; they should not contain unrelated information. When external topics need to be brought up, you can link to other previously-created issues, discussions, or other contextual references briefly to avoid the cluttering created issues.
+Issues should individually focus on something **specific** that needs doing; they should not contain unrelated information. When external topics need to be brought up, you can link to other previously-created issues, discussions, or other contextual references briefly, without impeding the main flow of conversation.
 
-To create issues, you can use one of the pre-made form templates: they ensure that all the necessary details are provided, so the maintainers can understand what is trying to be communicated.
+Pre-made form templates should be used at all times before opening issues: they ensure that all the necessary details are provided so the maintainers can understand what's trying to be communicated.
 
-In comparison to discussions (which are casual and open-ended spaces for conversation), issues should be created to support the quick completion of tasks; therefore, in practice, they should be comprised of pre-planned information that can be easily conveyed.
+In comparison to discussions (which are casual and open-ended spaces for conversation), issues should focus on promoting quick completion of tasks; therefore, in practice, they should be comprised of pre-planned information that can be easily conveyed.
 
 If you have already made complete changes to the project elsewhere, and would like to request the addition of said changes, please create a [pull request](#pull-requests) instead.
 
 ### Pull Requests
 
-[GitHub Pull Requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) can be made to propose self-made code changes be merged into production.
-
-## Bug Reports
-
-Problems with code functionality can be reported through [Issues](#issues).
-
-> [!CAUTION]
-> Do not report security vulnerabilities through here! See [Security](#security) for more information on why not to do this.
+[GitHub Pull Requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) can be used to propose self-made code changes be merged into production.
 
 ## Security
 
 Please read [SECURITY.md](SECURITY.md) for details on how to report vulnerabilities.
+
+## Bug Reports
+
+You can create [issues](#issues) to report problems with code functionality.
+
+> [!CAUTION]
+> Do not report security vulnerabilities through here; see [SECURITY.md](SECURITY.md) for where to go instead.
 
 ## Feature Requests
 
@@ -61,15 +61,13 @@ Feature requests can be created through [Issues](#issues) to suggest enhancement
 
 ## Documentation Improvements
 
-You can report typos, missing information, or other deprived areas of documentation through [Issues](#issues).
+You can report typos, missing information, or other deprived areas of documentation by opening an [issue](#issues).
 
 ## Commits
 
 Commits can be made to submit changes that have been made to a project.
 
-Commits must follow the [Conventional Commits specification](https://www.conventionalcommits.org) and [GitHub Flow](https://docs.github.com/get-started/using-github/github-flow).
-
-We have a few more rules on top of the Conventional Commits specification that also must be followed, mainly to enforce consistency in areas that are too easygoing. See below for those rules.
+All commits must follow the [Conventional Commits specification](https://www.conventionalcommits.org) and [GitHub Flow](https://docs.github.com/get-started/using-github/github-flow). We have a few more rules built on top of Conventional Commits that also must be followed, mainly to tighten areas of the original specification that are too easygoing. See [below](#commits-specification) for those rules.
 
 ### Commits Specification
 
