@@ -7,27 +7,26 @@ We highly value all contributions made towards our project. This document was cr
 We currently accept the following contributions:
 
 - Bug reports
+- Documentation improvements
 - Feature requests
-- Suggestions
 - Performance improvements
 - Code refactors
 - Code reviews
 - Workflow and automation changes
-- Documentation improvements
 
-## Feature Usage Overview
+## Security Vulnerabilities
 
-We aim to use many of the features GitHub provides to empower expandability of the project in the long-term. To keep things organized, we outline below what each feature should be used for.
+Please read [SECURITY.md](SECURITY.md) for details on how to report vulnerabilities.
 
-### Discussions
+## Discussions
 
 [GitHub Discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions) should be used to share ideas, ask and answer questions, gather community input, and more. Planning and open-ended discussion should most commonly take place in them.
 
 The aim of discussions is to provide an area where casual talk about subjects can be encouraged.
 
-### Issues
+## Issues
 
-You can create [GitHub Issues](https://docs.github.com/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) to suggest _what_ enhancements need to be made to the project and _why_, including contextual references within. They should present ideas and information that have been thought out **before** having being opened. It is advised to create or contribute to [discussions](#discussions) before opening issues, to gather ideas on where the community wants to take the project—considering the needs of other consumers generally increases the likelihood of contributions being approved.
+You can create [GitHub Issues](https://docs.github.com/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) to suggest _what_ enhancements need to be made to the project and _why_, including contextual references within. They should present ideas and information that have been thought out **before** having being opened. All the types of issues you can currently open—including [bug reports](#bug-reports) and [feature requests](#feature-requests)—are documented below.
 
 > [!TIP]
 > It is advised that you create or contribute to discussions before opening issues, to gather insight on where the rest of the community wants to take the project—considering and tailoring contributions to fit the needs of others generally increases the chance those contributions will meet approval.
@@ -40,28 +39,24 @@ In comparison to discussions (which are casual and open-ended spaces for convers
 
 If you have already made complete changes to the project elsewhere, and would like to request the addition of said changes, please create a [pull request](#pull-requests) instead.
 
-### Pull Requests
+### Bug Reports
 
-[GitHub Pull Requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) can be used to propose self-made code changes be merged into production.
-
-## Security
-
-Please read [SECURITY.md](SECURITY.md) for details on how to report vulnerabilities.
-
-## Bug Reports
-
-You can create [issues](#issues) to report problems with code functionality.
+You can report problems with code functionality.
 
 > [!CAUTION]
 > Do not report security vulnerabilities through here; see [SECURITY.md](SECURITY.md) for where to go instead.
 
-## Feature Requests
+### Feature Requests
 
-Feature requests can be created through [Issues](#issues) to suggest enhancements to functionality and usability.
+Feature requests can be created to suggest enhancements to functionality and usability.
 
-## Documentation Improvements
+### Documentation Improvements
 
-You can report typos, missing information, or other deprived areas of documentation by opening an [issue](#issues).
+You can report typos, missing information, or other deprived areas of documentation.
+
+## Pull Requests
+
+[GitHub Pull Requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) can be used to propose self-made code changes be merged into production.
 
 ## Commits
 
