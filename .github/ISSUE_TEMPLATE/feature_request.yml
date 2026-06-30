@@ -1,0 +1,37 @@
+name: Feature Request
+description: Suggest a new feature or an enhancement to an existing feature.
+type: Feature
+body:
+  - type: textarea
+    attributes:
+      label: Current Problem
+      description: Details about what problems are being or could be faced without the feature.
+      placeholder: >
+        Example: Without a maps board being present within trainings, it would be hard for a
+        session host to get a scope of what the attendees want to do within trainings, as they may
+        forget what each map looks like or is about.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed Solution
+      description: Whatever could be done to resolve the problem from your perspective.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Alternative Solutions
+      description: |
+        Other ideas that you or others may have had.
+
+        If you list ideas from other people, please include references to the sources.
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+
+  - type: upload
+    attributes:
+      label: Attachments
