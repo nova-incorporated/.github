@@ -1,0 +1,30 @@
+name: Refactor Request
+description: Refine the structure or performance of code.
+type: Refactor
+body:
+  - type: markdown
+    attributes:
+      value: We really appreciate you looking out for our project! To reach a resolution quickly, we kindly ask that you submit a request which includes as much detail as possible while keeping everything clean and concise. Please also note that you may be asked to provide further details.
+
+  - type: dropdown
+    attributes:
+      label: Component
+      description: The category that encompasses the system or feature that needs refactoring.
+      options:
+        - CI/CD
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Details of what needs updating and why.
+      placeholder: "Example: The method that is used to iterate over the database uses outdated and now-deprecated APIs. Because of this, the efficiency of the code is not as great as it could be. The solution would be to upgrade to the new stable, major version that was recently released."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Anything else that could be useful to include.
