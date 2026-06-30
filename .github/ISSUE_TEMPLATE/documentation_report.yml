@@ -1,0 +1,59 @@
+name: Documentation Report
+description: Add or improve documentation of a component(s) of the project.
+type: Documentation
+body:
+  - type: markdown
+    attributes:
+      value: We really appreciate you looking out for our project! To reach a resolution quickly, we kindly ask that you submit a report which includes as much detail as possible while keeping everything clean and concise. Please also note that you may be asked to provide further details.
+
+  - type: dropdown
+    attributes:
+      label: Component
+      description: The system or individual feature that is affected by the lack of documentation.
+      options:
+        - CI/CD
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Areas to Change
+      description: The sections or overall features that need changing.
+      multiple: true
+      options:
+        - README file
+        - Contributing guidelines
+        - Other community health file(s)
+        - New documentation file(s)
+        - Issue/pull request template(s)
+        - Code comment(s)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Details of what needs updating and why.
+      placeholder: "Example: The Contributing Guidelines state that you should only be able to contribute issues, pull requests, and discussions, but how can this apply to maintainers, for example, who may have more contributing responsibilities? I propose adding clarity to the Contributing Guide to list all the possible contributions without exceptions, and if some contributions are rare or must be treated differently per role in the project's hierarchy, a GOVERNANCE.md file should most likely be introduced to outline those details."
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Target Audience
+      description: The groups of users that this documentation will be directly useful for.
+      options:
+        - Regular community
+        - Contributors
+        - Maintainers
+        - Administrators
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Anything else that could be useful to include.
