@@ -1,0 +1,93 @@
+name: Task
+description: General or unclassified work.
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: This is an internal form for generalized tasks for the development team.
+
+  - type: dropdown
+    attributes:
+      label: Type
+      options:
+        - Development task
+        - Maintenance/cleanup
+        - Configuration/setup
+        - Build/deployment
+        - Dependencies update
+        - Performance analysis
+        - Security review
+        - Code review
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Components
+      description: The areas that will be changed through doing the task.
+      multiple: true
+      options:
+        - CI/CD
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Details about what needs doing and why.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Progress Checklist
+      description: Small, summarized checkpoints for the task.
+      placeholder: |
+        - [ ] Sub-task 1
+        - [ ] Sub-task 2
+        - [ ] Sub-task 3
+        Etc.
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - P0
+        - P1
+        - P2
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Size
+      description: How big or complex the task is.
+      options:
+        - XS
+        - S
+        - M
+        - L
+        - XL
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Estimate
+      description: The rough amount of time the task should take to complete.
+      placeholder: "Example: 2 hours"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Dependencies
+      description: Any references to other tasks that need doing with this one, before it is completed.
+
+  - type: upload
+    attributes:
+      label: Attachments

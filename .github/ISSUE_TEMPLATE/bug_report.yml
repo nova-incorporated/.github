@@ -1,0 +1,114 @@
+name: Bug Report
+description: File a bug report.
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: We really appreciate you looking out for our project! To reach a resolution quickly, we kindly ask that you submit a report which includes as much detail as possible while keeping everything clean and concise. Please also note that you may be asked to provide further details.
+
+  - type: dropdown
+    attributes:
+      label: Components
+      description: The systems, features or sections that are affected by the issue.
+      multiple: true
+      options:
+        - CI/CD
+        - Unknown
+        - Other
+      default: 4
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Problem
+      description: |
+        Specific details as to what went wrong.
+
+        If you were prompted with an error screen or observed some kind of error output, please attach the error codes and/or descriptions here.
+      placeholder: "Example: While I was on the About Us page, when I was trying to click on the settings cog at the top right, I'm not taken to the Settings page, not even after repeatedly trying to toggle it."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: Insight into what should have happened, and justification(s) as to why.
+      placeholder: "Example: After clicking the button, I believe it should have taken me to the Settings page as the button on the About Us page looks identical to the one on the Home page, so any end user would assume it performs the same response."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Environment
+      description: |
+        Specifications about where the bug took place from.
+
+        Tests performed in each environment must replicate the same issue being reported here; this area should not be used to report multiple differing bugs at once.
+      placeholder: |
+        Examples:
+
+        Environment 1:
+        Device Platform: Windows 11 Pro
+        OS Version: 25H2
+        OS Build: 26200.8246
+        GPU: NVIDIA GeForce GTX 1070
+        Roblox Client Version: 1.602.625.0
+        Roblox Experience Version: 3.8.0
+        Connection Strength: Ethernet
+        Times Tested: 5
+        Reproduction Frequency: 5/5
+        Observer: GreenTheBlaze
+
+        Environment 2:
+        Device Platform: Xbox One S
+        OS Version: 10.0.26100.7010 (xb_flt_2602ge.260212-1010)
+        Roblox Client Version: 1.10
+        Roblox Experience Version: 3.7.1
+        Connection Strength: Wi-Fi
+        Times Tested: 7
+        Reproduction Frequency: 4/7
+        Observer: ReisDiggerboy1st
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Reproduction Information
+      description: The exact steps taken to observe the bug from an environment(s), including any particular inputs made, and any details of irregularities that can be seen when following reproduction steps.
+      placeholder: |
+        Example:
+        1. Open the Roblox app.
+        2. Join Nova Security Training Facility.
+        3. Wait until the loading screen finishes.
+        4. The music unexpectedly pauses.
+
+  - type: input
+    attributes:
+      label: Contact Details
+      description: We may need to reach out in private for further details regarding issues faced.
+      placeholder: 'Example: Through my Discord account. My username is "greentheblaze", and my user ID is "711660517890064454".'
+
+  - type: upload
+    attributes:
+      label: Relevant Log Files
+      description: Please copy and paste any logs that may be related to the bug. Examples of logs we may require can include Roblox Developer Console logs, or in rare cases, Roblox Player logs. The logs will be automatically formatted into code, so no need for backticks.
+
+  - type: markdown
+    attributes:
+      value: Alternatively to the above, you can paste logs into the input below.
+
+  - type: textarea
+    attributes:
+      label: Relevant Logs (Text)
+      description: Please copy and paste any logs that may be related to the bug. Examples of logs we may require can include Roblox Developer Console logs, or in rare cases, Roblox Player logs. The logs will be automatically formatted into code, so no need for backticks.
+      render: shell
+
+  - type: upload
+    attributes:
+      label: Other Media
+      description: If applicable, add screenshots to help explain your problem.
+
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this bug report! We'll get back to you as soon as possible.
